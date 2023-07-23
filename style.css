@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2? family= Commissioner:wght@800 & family= Hind & display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+   
+   box-sizing: border-box;  
+
+}
+
+
+.cabecalho_pagina{
+
+    background-color: #002249;
+}
+
+.cabecalho_pagina_links{
+
+display: flex;
+justify-content: right;
+padding-right: 5%;
+gap:5%;
+color: aliceblue;
+position: fixed;
+top: 0;
+right: 0;
+width: 100%;
+background-color: #002249;
+
+
+}
+.parte_azul{
+    
+    gap: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    
+    background-color:#002249;
+    height: 100vh;
+    
+}
+
+.parte_azul_foto{
+    width: 40%;
+    
+    
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    
+    width: 40%;
+    
+    
+    
+}
+
+
+.texto_h1{
+font-size: 4rem;
+color: #50A0FF;
+font-family: 'Comissário', sans-serif;
+font-weight: 800;
+
+
+}
+
+.texto_h3{
+    color: aliceblue;
+    font-size: 2.25rem;
+    font-family: 'Comissário', sans-serif;
+    font-weight: 700;
+}
+
+.texto_p{
+    font-size: 1.25rem;
+    padding: 3% 0% 0% 0% ;
+    font-family:'Hind', sans-serif;
+    color: aliceblue;
+}
+
+.botao_link{
+    display: flex;
+    
+}
+
+
+
+.botao_link_nossas_sacolas{
+    border: 2px solid cornsilk;
+    color: aliceblue;
+    border-radius: 10%;
+
+    padding: 2%;
+    
+}
+
+
+.o{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%; 
+padding: 4%;
+}
+
+    
+
+
+
+.p{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10% ;
+    padding: 4% 4% 4% 8%;
+}
+.ideal_para{
+
+    color: aliceblue;
+    padding: 10% 0%;
+}
+
+
+.div_menu_icone{
+    display: flex;
+    justify-content: row;
+    color: antiquewhite;
+    text-decoration: none;
+    gap: 10%;
+}
+
+
+   .segunda_parte{
+
+height: 100vh;
+background-color: azure;
+
+   }
+
+.cabecalho_branco{
+    
+   
+    
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+
+.cabecalho_menu{
+    text-align: center;
+    padding:5%;
+   
+    color: black;
+   
+   
+   
+   
+}
+
+.cabecalho_menu_link1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    height: 60%;
+    
+    padding: 1% 5% ;
+    
+    
+}
+
+.cabecalho_menu_link1:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    height: 60%;
+    border-style: outset;
+    padding: 1% 5% ;
+    border-radius: 4%;
+    
+}
+.image_link1{
+    width: 50%;
+    
+}
+
+.cabecalho_menu_link2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    height: 60%;
+    
+    padding: 0.5% 5% ;
+    
+    
+}
+
+.cabecalho_menu_link2:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    height: 60%;
+    border-style: outset;
+    padding: 0.5% 5% ;
+    border-radius: 4%;}
+
+
+
+
+.image_link2{
+    width: 50%;
+}
+
+.cabecalho_menu_link3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    height: 60%;
+    
+    padding: 0.5% 2% ;
+    
+
+}
+
+
+.cabecalho_menu_link3:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    height: 60%;
+    border-style: outset;
+    padding: 0.5% 2% ;
+    border-radius: 4%;}
+
+.image_link3{
+    width: 50%;
+}
+
+.cabecalho_menu_link4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    height: 60%;
+    
+    padding: 0.5% 5% ;
+    
+}
+
+.cabecalho_menu_link4:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    height: 60%;
+    border-style: outset;
+    padding: 0.5% 5% ;
+    border-radius: 4%;}
+
+
+.image_link4{
+
+    width: 100%;
+
+}
+
+.menu_link_texto{  
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-weight: 300;
+    color: black    ;
+}
+
+.menu_link_texto1{
+    font-size: 0.5rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo_link{
+    font-weight: 500;
+    
+}
+
+.menu_link_texto2{
+    font-size: 0.5rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu_link_texto3{
+    font-size: 0.5rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu_link_texto4{
+    font-size: 0.56rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.terceira_parte{
+    background-color: rgb(171, 165, 165);
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    height: 100vh;
+}
+.terceira_parte_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+    
+
+.imagens_clientes_div1{
+   display: flex;
+   flex-wrap: nowrap;
+    background-color: rgb(171, 165, 165);
+
+    
+  
+    
+    
+}
+.imagens_clientes_div2{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(171, 165, 165);
+    
+}
+
+
+    .imagem_cliente_div1_pequena{
+        width: 20%;
+    }
+
+
+
+.imagem_fabrica{
+    width: 40%;
+    padding-top: 5%;
+}
+
+.quarta_parte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: rgb(35, 34, 34);
+}
+
+.quarta_parte_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    color: aliceblue;
+}
+.quarta_parte_texto2{
+   padding-bottom: 4%;
+   padding-left: 4%;
+    color: aliceblue;
+}
+.quarta_parte_imagem{
+    width: 30%;
+    padding: 5% 10%;
+   
+}
+.roda_pe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+   
+}
+
+.sancho{
+    padding-left: 9%;
+    padding-top: 5%;
+}
+footer{
+    background-color: rgb(49, 41, 98);
+    color: aliceblue;
+}
+@media(max-width:1200px){
+
+    .parte_azul{
+    
+       padding: auto;
+        flex-direction: column;
+        height: auto;
+    }
+
+        .texto{
+            display: flex;
+            flex-direction: column;
+            
+            width: 80%;
+            padding-bottom: 20%;}
+
+
+
+        
+        .parte_azul_texto_menu{
+            
+           justify-content: row ;
+           flex-wrap: wrap;
+        }
+           .cabecalho_branco{
+    
+            padding: auto;   
+            justify-content: center;
+            
+            flex-wrap: wrap;
+        }
+
+        .terceira_parte{
+            padding: auto;
+            flex-direction: column;}
+            
+
+            .imagens_clientes{
+               height: 100vh;
+
+                justify-content:row;
+            flex-wrap:wrap
+        }
+
+                .quarta_parte{
+                    flex-direction: column;
+                    padding: 1%;
+                }
+                    
+                    .roda_pe{
+                        flex-direction: column;
+                        gap: 50%;
+                        padding: 15%
+                    }
+
+                    .cabecalho_pagina_links{
+
+                        justify-content:center;
+                        flex-wrap: wrap;
+                        padding-right:0.5% ;
+                        padding-left: 0.5%;
+                    }
+                    .cabecalho_menu_link1{
+                       width: 100%;
+                        gap: 10%;
+                        display: flex;
+                        flex-direction: row;
+                        
+                       } 
+
+                       .cabecalho_menu_link2{
+                        
+                        width: 100%;
+                        gap: 10%;
+                        display: flex;
+                        flex-direction: row;}
+
+                        .cabecalho_menu_link3{
+                            width: 100%;
+                            
+                            display: flex;
+                            flex-direction: row;}
+
+
+
+                        
+                        .cabecalho_menu_link4{
+                            width: 100%;
+                            
+                            display: flex;
+                            flex-direction: row;}
+
+                        .quarta_parte_texto{
+                            width: 80%;}
+                            .quarta_parte_imagem{
+                                width: 80%;
+                                }
+                                .imagem_fabrica{
+                                    width: 80%;}
+
+                                    .imagens_clientes_div1{
+                                        display: flex;
+                                        justify-content: left;
+                                        background-color: rgb(171, 165, 165);
+                                        
+                                        
+                                    }
+                                    .imagens_clientes_div2{
+                                        display: flex;
+                                        justify-content: left;
+                                        background-color: rgb(171, 165, 165);
+
+                                    
+                                        }
+                                        
+                                        .imagem_cliente_div1_pequena{
+                                            width: 20%;
+                                        }
+
+                                        .cabecalho_menu_alteracao_texto{
+                                            display: flex;
+                                            flex-direction: column;
+                                        }
+                                        
+.image_link3{
+    width: 60%;
+
+}
+
+    .image_link4{
+        width: 60%;}
+
+
+        .tentativa{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+flex-wrap: nowrap;
+        }
+
+        .p{
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 10% ;
+            padding: 4%;}
+
+            .o{
+
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 10% ;
+                padding: 4%;
+            }
+
+                .w{
+                    display: flex;
+                    justify-content: row    ;
+
+                }
+
+                .parte_azul_foto{
+                    width: 90%;
+                    padding-bottom: 10%;}
+                    
+                    
+                
+                    .cabecalho_menu_link3{
+                        
+                        padding: 10% 40% 10% 0% ;
+                        flex-direction: row;
+                        align-items: center ;
+                        justify-content: row;
+                        gap: 10%;
+                        
+
+}
